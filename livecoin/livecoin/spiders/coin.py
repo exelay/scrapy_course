@@ -17,7 +17,7 @@ class CoinSpider(scrapy.Spider):
             usd_tab[3]:mouse_click()
             assert(splash:wait(3))
             splash:set_viewport_full()
-            return splash:png()
+            return splash:html()
         end
     '''
 
